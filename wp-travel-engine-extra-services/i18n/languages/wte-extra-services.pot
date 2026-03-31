@@ -1,0 +1,433 @@
+# Copyright (C) 2025 WP Travel Engine
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Travel Engine - Extra Services 2.2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 03:23:11+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
+"Last-Translator: WP Travel Engine <info@codewing.co>\n"
+"Language-Team: \n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: ../../wp-travel-engine-extra-services\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: admin/class-extra-services-wp-travel-engine-admin.php:173
+#: admin/class-extra-services-wp-travel-engine-admin.php:174
+#: admin/class-extra-services-wp-travel-engine-admin.php:187
+#: admin/class-extra-services-wp-travel-engine-admin.php:365
+#: admin/class-extra-services-wp-travel-engine-booking-metabox.php:88
+#: admin/class-extra-services-wp-travel-engine-booking-metabox.php:89
+#: admin/class-extra-services-wp-travel-engine-booking-metabox.php:120
+#: admin/class-extra-services-wp-travel-engine-booking-metabox.php:151
+#: admin/partials/extra-services-wp-travel-engine-admin-metabox-new.php:13
+#: admin/partials/extra-services-wp-travel-engine-admin-metabox.php:12
+#: admin/partials/extra-services-wp-travel-engine-admin-tab.php:8
+#: includes/class-extra-services-wp-travel-engine.php:274
+#: includes/class-wte-extra-services-metaboxes.php:46
+#: includes/class-wte-extra-services-posttype.php:34
+#: includes/script-templates/booking-process/tmpl-wte-booking-es-summary.php:6
+#: public/class-extra-services-wp-travel-engine-public.php:392
+#: public/class-extra-services-wp-travel-engine-public.php:422
+#: public/partials/extra-services-wp-travel-engine-public-trip.php:16
+#: public/partials/trip/view/booking__services-tab-content.php:19
+msgid "Extra Services"
+msgstr ""
+
+#: admin/class-extra-services-wp-travel-engine-admin.php:367
+msgid "<strong>{extra_services}</strong> - Extra services"
+msgstr ""
+
+#: admin/class-extra-services-wp-travel-engine-booking-metabox.php:154
+msgid "Extra Services info not available."
+msgstr ""
+
+#: admin/partials/extra-services-wp-travel-engine-admin-extra-service.php:19
+#: admin/partials/extra-services-wp-travel-engine-admin-settings.php:37
+#: admin/partials/extra-services-wp-travel-engine-admin-settings.php:117
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:71
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:179
+#: admin/partials/trip/edit/tab__extra-services.php:99
+msgid "Extra Service"
+msgstr ""
+
+#: admin/partials/extra-services-wp-travel-engine-admin-extra-service.php:25
+#: admin/partials/extra-services-wp-travel-engine-admin-settings.php:43
+#: admin/partials/extra-services-wp-travel-engine-admin-settings.php:123
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:77
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:185
+#: admin/partials/trip/edit/tab__extra-services.php:107
+msgid "Title"
+msgstr ""
+
+#: admin/partials/extra-services-wp-travel-engine-admin-extra-service.php:33
+#: admin/partials/extra-services-wp-travel-engine-admin-settings.php:51
+#: admin/partials/extra-services-wp-travel-engine-admin-settings.php:130
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:85
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:193
+#: admin/partials/trip/edit/tab__extra-services.php:51
+#: admin/partials/trip/edit/tab__extra-services.php:112
+msgid "Service Name"
+msgstr ""
+
+#: admin/partials/extra-services-wp-travel-engine-admin-extra-service.php:38
+#: admin/partials/extra-services-wp-travel-engine-admin-settings.php:55
+#: admin/partials/extra-services-wp-travel-engine-admin-settings.php:134
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:89
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:198
+#: admin/partials/trip/edit/tab__extra-services.php:117
+#: includes/class-wte-extra-services-metaboxes.php:114
+msgid "Service Cost"
+msgstr ""
+
+#: admin/partials/extra-services-wp-travel-engine-admin-extra-service.php:49
+#: admin/partials/extra-services-wp-travel-engine-admin-settings.php:65
+#: admin/partials/extra-services-wp-travel-engine-admin-settings.php:143
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:99
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:209
+#: admin/partials/trip/edit/tab__extra-services.php:123
+msgid "Price per person"
+msgstr ""
+
+#: admin/partials/extra-services-wp-travel-engine-admin-extra-service.php:55
+#: admin/partials/extra-services-wp-travel-engine-admin-settings.php:71
+#: admin/partials/extra-services-wp-travel-engine-admin-settings.php:149
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:105
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:215
+#: admin/partials/trip/edit/tab__extra-services.php:130
+#: includes/class-wte-extra-services-metaboxes.php:187
+msgid "Service Unit"
+msgstr ""
+
+#: admin/partials/extra-services-wp-travel-engine-admin-extra-service.php:60
+#: admin/partials/extra-services-wp-travel-engine-admin-settings.php:76
+#: admin/partials/extra-services-wp-travel-engine-admin-settings.php:154
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:108
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:220
+#: admin/partials/trip/edit/tab__extra-services.php:135
+#: includes/class-wte-extra-services-metaboxes.php:32
+msgid "Per Unit"
+msgstr ""
+
+#: admin/partials/extra-services-wp-travel-engine-admin-extra-service.php:63
+#: admin/partials/extra-services-wp-travel-engine-admin-settings.php:79
+#: admin/partials/extra-services-wp-travel-engine-admin-settings.php:157
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:111
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:223
+#: admin/partials/trip/edit/tab__extra-services.php:139
+#: includes/class-wte-extra-services-metaboxes.php:36
+msgid "Per Traveler"
+msgstr ""
+
+#: admin/partials/extra-services-wp-travel-engine-admin-extra-service.php:73
+#: admin/partials/extra-services-wp-travel-engine-admin-extra-service.php:76
+#: admin/partials/extra-services-wp-travel-engine-admin-settings.php:86
+#: admin/partials/extra-services-wp-travel-engine-admin-settings.php:89
+#: admin/partials/extra-services-wp-travel-engine-admin-settings.php:164
+#: admin/partials/extra-services-wp-travel-engine-admin-settings.php:167
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:118
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:121
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:230
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:233
+#: admin/partials/trip/edit/tab__extra-services.php:147
+#: admin/partials/trip/edit/tab__extra-services.php:151
+#: includes/class-wte-extra-services-metaboxes.php:134
+msgid "Service Description"
+msgstr ""
+
+#: admin/partials/extra-services-wp-travel-engine-admin-metabox-new.php:39
+#: admin/partials/extra-services-wp-travel-engine-admin-metabox.php:30
+msgid "Total Service Cost:"
+msgstr ""
+
+#: admin/partials/extra-services-wp-travel-engine-admin-settings.php:17
+msgid "Extra service title"
+msgstr ""
+
+#: admin/partials/extra-services-wp-travel-engine-admin-settings.php:21
+msgid "Enter title"
+msgstr ""
+
+#: admin/partials/extra-services-wp-travel-engine-admin-settings.php:22
+msgid "Title For the Extra Service section."
+msgstr ""
+
+#: admin/partials/extra-services-wp-travel-engine-admin-settings.php:101
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:133
+msgid "Add Extra Service"
+msgstr ""
+
+#: admin/partials/extra-services-wp-travel-engine-admin-settings.php:190
+msgid ""
+"The extra services have been moved from here to separate post-type for "
+"advanced features. %1$sView Extra Services%2$s"
+msgstr ""
+
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:31
+#: admin/partials/trip/edit/tab__extra-services.php:29
+msgid "Note:"
+msgstr ""
+
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:32
+msgid ""
+"You can add, edit and delete the global extra services via <b>WP Travel "
+"Engine > Settings > Extensions > Extra Services</b>."
+msgstr ""
+
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:40
+#: admin/partials/trip/edit/tab__extra-services.php:35
+msgid "Select Extra Service"
+msgstr ""
+
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:43
+#: admin/partials/trip/edit/tab__extra-services.php:40
+msgid "Choose Global Extra Services"
+msgstr ""
+
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:51
+#: admin/partials/trip/edit/tab__extra-services.php:44
+#: includes/class-extra-services-wp-travel-engine.php:521
+msgid "Choose and select the global Extra Service."
+msgstr ""
+
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:137
+msgid "You can create unique extra services for each trip using Add Extra Service."
+msgstr ""
+
+#: admin/partials/extra-services-wp-travel-engine-admin-trip-post.php:142
+#: admin/partials/trip/edit/tab__extra-services.php:174
+msgid "Save &amp; Continue"
+msgstr ""
+
+#: admin/partials/trip/edit/tab__extra-services.php:30
+msgid ""
+"You can add, edit and delete the global extra services via <b>WP Travel "
+"Engine > Extra Services</b>."
+msgstr ""
+
+#: admin/partials/trip/edit/tab__extra-services.php:47
+msgid "Selected Extra Services for the trip."
+msgstr ""
+
+#: admin/partials/trip/edit/tab__extra-services.php:52
+msgid "Service Type"
+msgstr ""
+
+#: admin/partials/trip/edit/tab__extra-services.php:53
+msgid "Options"
+msgstr ""
+
+#: includes/class-extra-services-wp-travel-engine.php:417
+msgid "Trip extra services."
+msgstr ""
+
+#: includes/class-extra-services-wp-travel-engine.php:423
+msgid "Extra service ID."
+msgstr ""
+
+#: includes/class-extra-services-wp-travel-engine.php:427
+msgid "Extra service label."
+msgstr ""
+
+#: includes/class-extra-services-wp-travel-engine.php:431
+msgid "Extra service type."
+msgstr ""
+
+#: includes/class-extra-services-wp-travel-engine.php:435
+msgid "Extra service options."
+msgstr ""
+
+#: includes/class-extra-services-wp-travel-engine.php:442
+msgid "Extra service descriptions."
+msgstr ""
+
+#: includes/class-extra-services-wp-travel-engine.php:449
+msgid "Extra service prices."
+msgstr ""
+
+#: includes/class-extra-services-wp-travel-engine.php:484
+#: includes/class-wte-extra-services-metaboxes.php:107
+msgid "Advanced"
+msgstr ""
+
+#: includes/class-extra-services-wp-travel-engine.php:484
+#: includes/class-wte-extra-services-metaboxes.php:103
+msgid "Default"
+msgstr ""
+
+#: includes/class-extra-services-wp-travel-engine.php:508
+msgid ""
+"<p><strong>NOTE:</strong> Do you want to provide additional services such "
+"as supplementary room, hotel upgrade, airport pick and drop, etc? Extra "
+"Services extension allows you to create add-on services and sell more to "
+"your customer. <a "
+"href=\"https://wptravelengine.com/plugins/extra-services/?utm_source=free_"
+"plugin&utm_medium=pro_addon&utm_campaign=upgrade_to_pro\" "
+"target=\"_blank\">Get Extra Services extension now</a></p>"
+msgstr ""
+
+#: includes/class-extra-services-wp-travel-engine.php:515
+msgid ""
+"<p><strong>NOTE:</strong> You can add, edit and delete the global extra "
+"services via <strong>WP Travel Engine > Extra Services</strong>.</p>"
+msgstr ""
+
+#: includes/class-extra-services-wp-travel-engine.php:520
+msgid "Section Extra Service"
+msgstr ""
+
+#: includes/class-wte-extra-services-metaboxes.php:31
+#: public/partials/extra-services-wp-travel-engine-public-trip.php:68
+#: public/partials/trip/view/booking__services-tab-content.php:84
+#: public/partials/trip/view/booking__services-tab-content.php:167
+#: public/partials/trip/view/booking__services-tab-content.php:229
+#: public/partials/trip/view/booking__services-tab-content.php:283
+msgid "Unit"
+msgstr ""
+
+#: includes/class-wte-extra-services-metaboxes.php:35
+#: public/partials/extra-services-wp-travel-engine-public-trip.php:69
+#: public/partials/trip/view/booking__services-tab-content.php:85
+#: public/partials/trip/view/booking__services-tab-content.php:168
+#: public/partials/trip/view/booking__services-tab-content.php:230
+#: public/partials/trip/view/booking__services-tab-content.php:284
+msgid "Traveler"
+msgstr ""
+
+#: includes/class-wte-extra-services-metaboxes.php:85
+#: includes/class-wte-extra-services-metaboxes.php:89
+msgid "Required"
+msgstr ""
+
+#: includes/class-wte-extra-services-metaboxes.php:92
+msgid ""
+"When this feature is enabled, a minimum of one selection is required during "
+"the booking process."
+msgstr ""
+
+#: includes/class-wte-extra-services-metaboxes.php:98
+msgid "Choose Service Type"
+msgstr ""
+
+#: includes/class-wte-extra-services-metaboxes.php:146
+msgid "Field Types"
+msgstr ""
+
+#: includes/class-wte-extra-services-metaboxes.php:151
+msgid "User can select one service option while booking."
+msgstr ""
+
+#: includes/class-wte-extra-services-metaboxes.php:155
+msgid "User can select multiple service options while booking."
+msgstr ""
+
+#: includes/class-wte-extra-services-metaboxes.php:158
+msgid "The field types defines the type of the service you are providing."
+msgstr ""
+
+#: includes/class-wte-extra-services-metaboxes.php:162
+msgid "Pricing"
+msgstr ""
+
+#: includes/class-wte-extra-services-metaboxes.php:167
+msgid "Options have same price."
+msgstr ""
+
+#: includes/class-wte-extra-services-metaboxes.php:172
+msgid "Options have different prices."
+msgstr ""
+
+#: includes/class-wte-extra-services-metaboxes.php:175
+msgid ""
+"The Pricing types controls if options below will have same price or "
+"different price."
+msgstr ""
+
+#: includes/class-wte-extra-services-metaboxes.php:180
+#: includes/class-wte-extra-services-metaboxes.php:185
+msgid "Service Options"
+msgstr ""
+
+#: includes/class-wte-extra-services-metaboxes.php:186
+msgid "Service Costs"
+msgstr ""
+
+#: includes/class-wte-extra-services-metaboxes.php:188
+msgid "Service Descriptions"
+msgstr ""
+
+#: includes/class-wte-extra-services-metaboxes.php:221
+msgid "Add Service Option"
+msgstr ""
+
+#: includes/script-templates/booking-process/tmpl-wte-booking-extraservices.php:4
+msgid "Select Extra Services"
+msgstr ""
+
+#: public/class-extra-services-wp-travel-engine-public.php:142
+msgid "Extra Service(s)"
+msgstr ""
+
+#: public/class-extra-services-wp-travel-engine-public.php:337
+msgid "Extra Services:"
+msgstr ""
+
+#: public/partials/extra-services-wp-travel-engine-public-trip.php:74
+#: public/partials/trip/view/booking__services-tab-content.php:91
+#: public/partials/trip/view/booking__services-tab-content.php:174
+#: public/partials/trip/view/booking__services-tab-content.php:235
+#: public/partials/trip/view/booking__services-tab-content.php:290
+msgid "per "
+msgstr ""
+
+#: updater/EDD_SL_Plugin_Updater.php:228
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: updater/EDD_SL_Plugin_Updater.php:236
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: updater/EDD_SL_Plugin_Updater.php:474
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: updater/EDD_SL_Plugin_Updater.php:474
+msgid "Error"
+msgstr ""
+
+#: vendor/codewing-solutions/wptravelengine-pro-config/src/EDDPluginsResponse.php:62
+#: vendor/codewing-solutions/wptravelengine-pro-config/src/functions.php:168
+msgid "Invalid API response"
+msgstr ""
+
+#: vendor/codewing-solutions/wptravelengine-pro-config/src/functions.php:74
+msgid "install"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Travel Engine - Extra Services"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wptravelengine.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Extra Services is an extension for WP Travel Engine to add additional "
+"services for trips."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Travel Engine"
+msgstr ""

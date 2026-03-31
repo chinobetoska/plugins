@@ -1,0 +1,213 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#wte-extra-services-metabox .wpte-field-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+#wte-extra-services-metabox .wpte-field-group label {
+  margin: 0;
+}
+
+#wte-extra-services-metabox label {
+  font-size: 14px;
+}
+
+#wte-extra-services-metabox input[type="radio"] {
+  margin-top: 0;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #D0D5DD;
+  background-color: #F9FAFB;
+  box-shadow: none;
+  position: relative;
+  transition: all .3s ease;
+}
+
+#wte-extra-services-metabox input[type="checkbox"].as-switch {
+  width: 36px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: #F2F4F7;
+  border: none;
+  box-shadow: none;
+  position: relative;
+}
+
+#wte-extra-services-metabox input[type="checkbox"].as-switch::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  margin: 0;
+  transition: all .3s ease;
+  box-shadow: 0px 1px 2px 0px #1018280F, 0px 1px 3px 0px #1018281A;
+}
+
+#wte-extra-services-metabox input[type="checkbox"].as-switch:checked {
+  background-color: var(--primary-color);
+}
+
+#wte-extra-services-metabox input[type="checkbox"].as-switch:checked::before {
+  transform: translateX(16px);
+}
+
+#wte-extra-services-metabox input[type="radio"]::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background-color: #D0D5DD;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  border-radius: 50%;
+  transition: all .3s ease;
+}
+
+#wte-extra-services-metabox input[type="radio"]:checked {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+#wte-extra-services-metabox input[type="radio"]:checked::before {
+  background-color: #fff;
+}
+
+#wte-extra-services-metabox .wpte-field {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
+  margin: 0;
+  width: 100%;
+}
+
+#wte-extra-services-metabox .wpte-field-control {
+  flex: 1;
+}
+
+#wte-extra-services-metabox .wpte-field-title {
+  font-size: 16px;
+  line-height: 1.75;
+  font-weight: 600;
+  margin: 0 0 24px;
+  padding: 0 0 8px;
+  position: relative;
+}
+
+#wte-extra-services-metabox .wpte-field-title::after {
+  content: "";
+  width: 40px;
+  height: 3px;
+  background-color: #C4C4C4;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+#wte-extra-services-metabox .wpte-subfields {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  column-gap: 32px;
+}
+
+#wte-extra-services-metabox .wpte-subfields.inline {
+  flex-flow: row wrap;
+}
+
+#wte-extra-services-metabox .wpte-help-text {
+  margin-top: 6px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #6E797E;
+}
+
+#wte-extra-services-metabox .wpte-field:not(:last-child) {
+  border-bottom: 1px solid rgba(15, 29, 35, 0.1);
+}
+
+#wte-extra-services-metabox .wpte-field-label {
+  flex: 0 0 30%;
+  max-width: 220px;
+  max-height: 45px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1A1D1F;
+  margin: 0;
+  position: relative;
+  display: flex;
+}
+
+.wpte-extra-services-table-wrapper {
+  margin: 0 0 24px;
+  border: 1px solid #BED6F9;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.wpte-extra-services-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.wpte-extra-services-table th {
+  background-color: #EFF5FF;
+}
+
+.wpte-extra-services-table th,
+.wpte-extra-services-table td {
+  padding: 12px 24px;
+  font-size: 14px;
+  line-height: 1.8;
+  border-bottom: 1px solid #BED6F9;
+  text-align: left;
+}
+
+.wpte-extra-services-table tr:last-child td {
+  border-bottom: none;
+}
+
+button.wte-add-service-option {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 600;
+  padding: 12px 24px;
+  border: 1px solid #D8E6FC;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #3E4B50;
+  background: none;
+  transition: all .3s ease;
+}
+
+button.wte-add-service-option::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+  background-color: currentColor;
+  mask: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.0001 4.16669V15.8334M4.16675 10H15.8334' stroke='%233E4B50' stroke-width='1.66667' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A") no-repeat 100% 100%;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.0001 4.16669V15.8334M4.16675 10H15.8334' stroke='%233E4B50' stroke-width='1.66667' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A") no-repeat 100% 100%;
+}
+
+button.wte-add-service-option:hover {
+  background-color: #EFF5FF;
+  color: var(--primary-color);
+}
+
+button.wpte-remove-es-option {
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.3333 5.00002V4.33335C13.3333 3.39993 13.3333 2.93322 13.1517 2.5767C12.9919 2.2631 12.7369 2.00813 12.4233 1.84834C12.0668 1.66669 11.6001 1.66669 10.6667 1.66669H9.33333C8.39991 1.66669 7.9332 1.66669 7.57668 1.84834C7.26308 2.00813 7.00811 2.2631 6.84832 2.5767C6.66667 2.93322 6.66667 3.39993 6.66667 4.33335V5.00002M8.33333 9.58335V13.75M11.6667 9.58335V13.75M2.5 5.00002H17.5M15.8333 5.00002V14.3334C15.8333 15.7335 15.8333 16.4336 15.5608 16.9683C15.3212 17.4387 14.9387 17.8212 14.4683 18.0609C13.9335 18.3334 13.2335 18.3334 11.8333 18.3334H8.16667C6.76654 18.3334 6.06647 18.3334 5.53169 18.0609C5.06129 17.8212 4.67883 17.4387 4.43915 16.9683C4.16667 16.4336 4.16667 15.7335 4.16667 14.3334V5.00002' stroke='%23E84B4B' stroke-width='1.66667' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A") !important;
+  background-size: 20px;
+}
