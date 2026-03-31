@@ -1,0 +1,579 @@
+# Copyright (C) 2025 WP Travel Engine
+# This file is distributed under the GPL2+.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Travel Engine - Advanced Itinerary Builder 2.2.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-01 07:50:36+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
+"Last-Translator: WP Travel Engine <info@codewing.co>\n"
+"Language-Team: \n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: ../../wp-travel-engine-advanced-itinerary-builder\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 1.0.4\n"
+
+#: admin/itinerary-extension-clone-setting.php:6
+msgid "E.g. Hotel Stay, Tent Stay.."
+msgstr ""
+
+#: admin/itinerary-extension-subsetting-tab.php:11
+msgid "Always Show  All Itinerary"
+msgstr ""
+
+#: admin/itinerary-extension-subsetting-tab.php:20
+#: classes/settings/global/builder.php:22
+msgid ""
+"Default: All hidden. Enable this option to always expand all itinerary on "
+"initial page load."
+msgstr ""
+
+#: admin/itinerary-extension-subsetting-tab.php:26
+msgid "Sleep Mode Fields for Itinerary"
+msgstr ""
+
+#: admin/itinerary-extension-subsetting-tab.php:31
+msgid "Option Text"
+msgstr ""
+
+#: admin/itinerary-extension-subsetting-tab.php:34
+#: classes/settings/global/builder.php:35
+msgid ""
+"Field option value to be displayed in Sleep Mode Select Field in trip page. "
+"This text will also be displayed in front as a sleeping mode in each "
+"itinerary."
+msgstr ""
+
+#: admin/itinerary-extension-subsetting-tab.php:69
+msgid "Add Field"
+msgstr ""
+
+#: admin/itinerary-extension-subsetting-tab.php:73
+#: classes/settings/global/builder.php:43
+msgid ""
+"You can set various sleep modes on particular day's trip from above "
+"setting. You can add various means of accommodations such as hotel, tent, "
+"camping, homestay etc. for specific day."
+msgstr ""
+
+#: admin/itinerary-extension-subsetting-tab.php:94
+#: classes/class-wte-advanced-itineray-init.php:106
+msgid "Altitude Unit:"
+msgstr ""
+
+#: admin/itinerary-extension-subsetting-tab.php:96
+#: classes/class-wte-advanced-itineray-init.php:108
+msgid "M."
+msgstr ""
+
+#: admin/itinerary-extension-subsetting-tab.php:97
+#: classes/class-wte-advanced-itineray-init.php:109
+msgid "FT."
+msgstr ""
+
+#: admin/itinerary-extension-subsetting-tab.php:103
+msgid "Itinerary Elevation Chart Settings"
+msgstr ""
+
+#: admin/itinerary-extension-subsetting-tab.php:111
+msgid "Show Chart on Trip Page"
+msgstr ""
+
+#: admin/itinerary-extension-subsetting-tab.php:120
+msgid "Enable this option to show an elevation chart just before itinerary list."
+msgstr ""
+
+#: admin/itinerary-extension-subsetting-tab.php:124
+msgid "Elevation input unit"
+msgstr ""
+
+#: admin/itinerary-extension-subsetting-tab.php:128
+#: admin/itinerary-meta-clone-settings.php:160
+#: admin/itinerary-meta-clone-settings.php:163
+#: admin/itinerary-meta-setting-tab.php:276
+#: admin/itinerary-meta-setting-tab.php:279
+msgid "Meter"
+msgstr ""
+
+#: admin/itinerary-extension-subsetting-tab.php:129
+#: admin/itinerary-meta-clone-settings.php:161
+#: admin/itinerary-meta-setting-tab.php:277
+msgid "foot"
+msgstr ""
+
+#: admin/itinerary-extension-subsetting-tab.php:133
+msgid ""
+"Default: Meter. The unit of entered value on each itinerary will be the "
+"selected one and will be used for conversion."
+msgstr ""
+
+#: admin/itinerary-extension-subsetting-tab.php:137
+msgid "Show X-Axis"
+msgstr ""
+
+#: admin/itinerary-extension-subsetting-tab.php:148
+msgid "Show Y-Axis"
+msgstr ""
+
+#: admin/itinerary-extension-subsetting-tab.php:158
+msgid "Show line Graph"
+msgstr ""
+
+#: admin/itinerary-extension-subsetting-tab.php:168
+msgid "Theme color"
+msgstr ""
+
+#: admin/itinerary-extension-subsetting-tab.php:172
+msgid "Chart Background Image"
+msgstr ""
+
+#: admin/itinerary-extension-subsetting-tab.php:174
+msgid "Choose Image"
+msgstr ""
+
+#: admin/itinerary-extension-subsetting-tab.php:180
+msgid "Randomize"
+msgstr ""
+
+#: admin/itinerary-meta-clone-settings.php:12
+#: admin/itinerary-meta-setting-tab.php:46
+#: admin/itinerary-meta-setting-tab.php:62
+msgid "Day"
+msgstr ""
+
+#: admin/itinerary-meta-clone-settings.php:17
+#: admin/itinerary-meta-setting-tab.php:72
+msgid "Itinerary Title"
+msgstr ""
+
+#: admin/itinerary-meta-clone-settings.php:21
+#: admin/itinerary-meta-setting-tab.php:79
+msgid "Days Label"
+msgstr ""
+
+#: admin/itinerary-meta-clone-settings.php:26
+#: admin/itinerary-meta-setting-tab.php:86
+msgid "Duration"
+msgstr ""
+
+#: admin/itinerary-meta-clone-settings.php:32
+#: admin/itinerary-meta-setting-tab.php:94
+msgid "Hour(s)"
+msgstr ""
+
+#: admin/itinerary-meta-clone-settings.php:33
+#: admin/itinerary-meta-setting-tab.php:98
+msgid "Minute(s)"
+msgstr ""
+
+#: admin/itinerary-meta-clone-settings.php:42
+#: admin/itinerary-meta-clone-settings.php:85
+#: admin/itinerary-meta-setting-tab.php:164
+msgid "Click to initialize RichEditor"
+msgstr ""
+
+#: admin/itinerary-meta-clone-settings.php:43
+#: admin/itinerary-meta-setting-tab.php:110
+msgid "Itinerary Content:"
+msgstr ""
+
+#: admin/itinerary-meta-clone-settings.php:55
+#: admin/itinerary-meta-setting-tab.php:126
+msgid "Please Select Sleep Mode"
+msgstr ""
+
+#: admin/itinerary-meta-clone-settings.php:71
+#: admin/itinerary-meta-setting-tab.php:148
+msgid "No Field Added"
+msgstr ""
+
+#: admin/itinerary-meta-clone-settings.php:80
+#: admin/itinerary-meta-setting-tab.php:158
+msgid "Sleep Mode Additional Info"
+msgstr ""
+
+#: admin/itinerary-meta-clone-settings.php:87
+msgid "Sleep Mode Content Additional Info:"
+msgstr ""
+
+#: admin/itinerary-meta-clone-settings.php:101
+#: admin/itinerary-meta-setting-tab.php:180
+msgid "Add image to gallery"
+msgstr ""
+
+#: admin/itinerary-meta-clone-settings.php:102
+#: admin/itinerary-meta-clone-settings.php:103
+#: admin/itinerary-meta-setting-tab.php:181
+#: admin/itinerary-meta-setting-tab.php:183
+msgid "Add image"
+msgstr ""
+
+#: admin/itinerary-meta-clone-settings.php:114
+#: admin/itinerary-meta-setting-tab.php:228
+msgid "Meals Included"
+msgstr ""
+
+#: admin/itinerary-meta-clone-settings.php:121
+#: admin/itinerary-meta-setting-tab.php:236
+#: templates/trip-itinerary-template.php:188
+msgid "Breakfast"
+msgstr ""
+
+#: admin/itinerary-meta-clone-settings.php:129
+#: admin/itinerary-meta-setting-tab.php:245
+#: templates/trip-itinerary-template.php:189
+msgid "Lunch"
+msgstr ""
+
+#: admin/itinerary-meta-clone-settings.php:137
+#: admin/itinerary-meta-setting-tab.php:254
+#: templates/trip-itinerary-template.php:190
+msgid "Dinner"
+msgstr ""
+
+#: admin/itinerary-meta-clone-settings.php:141
+#: admin/itinerary-meta-setting-tab.php:257
+msgid "Tick All"
+msgstr ""
+
+#: admin/itinerary-meta-clone-settings.php:146
+#: admin/itinerary-meta-setting-tab.php:262
+msgid "Location Info:"
+msgstr ""
+
+#: admin/itinerary-meta-clone-settings.php:150
+#: admin/itinerary-meta-setting-tab.php:266
+msgid "Location"
+msgstr ""
+
+#: admin/itinerary-meta-clone-settings.php:154
+#: admin/itinerary-meta-setting-tab.php:270
+#: classes/class-wte-advanced-itineray-init.php:278
+#: classes/class-wte-advanced-itineray-init.php:279
+msgid "Altitude"
+msgstr ""
+
+#: admin/itinerary-meta-setting-tab.php:16
+msgid "Itinerary"
+msgstr ""
+
+#: admin/itinerary-meta-setting-tab.php:20
+msgid "You can add, edit and delete sleep modes via"
+msgstr ""
+
+#: admin/itinerary-meta-setting-tab.php:21
+msgid ""
+"WP Travel Engine &gt; Settings &gt; Extensions &gt; Advanced Itinerary "
+"Builder."
+msgstr ""
+
+#: admin/itinerary-meta-setting-tab.php:26
+msgid "Section Title"
+msgstr ""
+
+#: admin/itinerary-meta-setting-tab.php:30
+msgid "Enter title for the trip itinerary section tab content."
+msgstr ""
+
+#: admin/itinerary-meta-setting-tab.php:109
+msgid "Click to initialize Rich Editor"
+msgstr ""
+
+#: admin/itinerary-meta-setting-tab.php:166
+msgid "Sleep Mode Content Additional Info"
+msgstr ""
+
+#: admin/itinerary-meta-setting-tab.php:301
+msgid "Add Itinerary"
+msgstr ""
+
+#: admin/itinerary-meta-setting-tab.php:310
+msgid "Save &amp; Continue"
+msgstr ""
+
+#: classes/class-wte-advanced-itineray-init.php:21
+msgid ""
+"WP Travel Engine Advanced Itinerary Builder requires WP Travel Engine "
+"version 6.4.1 or higher."
+msgstr ""
+
+#: classes/class-wte-advanced-itineray-init.php:135
+#: classes/settings/global/builder.php:9
+msgid "Advanced Itinerary Builder"
+msgstr ""
+
+#: classes/class-wte-advanced-itineray-init.php:277
+msgid "Invalid JSON String"
+msgstr ""
+
+#: classes/class-wte-advanced-itineray-init.php:280
+msgid "Days"
+msgstr ""
+
+#: classes/class-wte-advanced-itineray-init.php:281
+msgid "Location altitudes"
+msgstr ""
+
+#: classes/settings/global/builder.php:17
+msgid "General"
+msgstr ""
+
+#: classes/settings/global/builder.php:21
+msgid "Always Show All Itinerary"
+msgstr ""
+
+#: classes/settings/global/builder.php:29 classes/settings/global/schema.php:17
+msgid "Sleep Mode Fields"
+msgstr ""
+
+#: classes/settings/global/builder.php:34
+msgid "Option Text<span class=\"required\">*</span>"
+msgstr ""
+
+#: classes/settings/global/builder.php:48
+msgid "Elevation Chart"
+msgstr ""
+
+#: classes/settings/global/builder.php:58
+msgid "Additional Itinerary Fields"
+msgstr ""
+
+#: classes/settings/global/builder.php:63
+msgid "Show Itinerary Info"
+msgstr ""
+
+#: classes/settings/global/builder.php:64
+msgid ""
+"Enable this to show structured day-by-day itinerary details (e.g., Walking "
+"Distance, Meals, Activities) for each trip, presented in a clear, organized "
+"layout, giving travelers a quick view of daily plans."
+msgstr ""
+
+#: classes/settings/global/builder.php:71
+msgid "Itinerary Info Display Position "
+msgstr ""
+
+#: classes/settings/global/builder.php:72
+msgid ""
+"Choose whether the itinerary info fields appear below the day title or "
+"below the day description."
+msgstr ""
+
+#: classes/settings/global/builder.php:78
+msgid "Below Title"
+msgstr ""
+
+#: classes/settings/global/builder.php:82
+msgid "Below Description"
+msgstr ""
+
+#: classes/settings/global/builder.php:89 classes/settings/global/schema.php:80
+msgid "Itinerary Info Fields"
+msgstr ""
+
+#: classes/settings/global/global.php:180
+msgid "Title is required."
+msgstr ""
+
+#: classes/settings/global/schema.php:9
+msgid "Advanced Itinerary settings"
+msgstr ""
+
+#: classes/settings/global/schema.php:13
+msgid "Enable All Itinerary"
+msgstr ""
+
+#: classes/settings/global/schema.php:24
+msgid "Chart"
+msgstr ""
+
+#: classes/settings/global/schema.php:28
+msgid "Enable"
+msgstr ""
+
+#: classes/settings/global/schema.php:32
+msgid "Elevation Unit"
+msgstr ""
+
+#: classes/settings/global/schema.php:36
+msgid "Enable X Axis"
+msgstr ""
+
+#: classes/settings/global/schema.php:40
+msgid "Enable Y Axis"
+msgstr ""
+
+#: classes/settings/global/schema.php:44
+msgid "Enable Line Graph"
+msgstr ""
+
+#: classes/settings/global/schema.php:48
+msgid "Color"
+msgstr ""
+
+#: classes/settings/global/schema.php:52
+msgid "Background Image"
+msgstr ""
+
+#: classes/settings/global/schema.php:56 classes/settings/global/schema.php:86
+msgid "ID"
+msgstr ""
+
+#: classes/settings/global/schema.php:60
+msgid "Alternative String"
+msgstr ""
+
+#: classes/settings/global/schema.php:64
+msgid "URL"
+msgstr ""
+
+#: classes/settings/global/schema.php:72
+msgid "Enable Itinerary Info"
+msgstr ""
+
+#: classes/settings/global/schema.php:76
+msgid "Itinerary Info Display Position"
+msgstr ""
+
+#: classes/settings/global/schema.php:90
+msgid "Title"
+msgstr ""
+
+#: classes/settings/global/schema.php:94
+msgid "Icon"
+msgstr ""
+
+#: classes/settings/global/schema.php:98
+msgid "Enabled or Not"
+msgstr ""
+
+#: classes/settings/trip-edit/trip-edit.php:95
+msgid "Itinerary period."
+msgstr ""
+
+#: classes/settings/trip-edit/trip-edit.php:99
+msgid "Itinerary period unit."
+msgstr ""
+
+#: classes/settings/trip-edit/trip-edit.php:104
+msgid "Itinerary sleep mode."
+msgstr ""
+
+#: classes/settings/trip-edit/trip-edit.php:108
+msgid "Sleep mode field."
+msgstr ""
+
+#: classes/settings/trip-edit/trip-edit.php:112
+msgid "Sleep mode description."
+msgstr ""
+
+#: classes/settings/trip-edit/trip-edit.php:118
+msgid "Itinerary meals included."
+msgstr ""
+
+#: classes/settings/trip-edit/trip-edit.php:125
+msgid "Itinerary images."
+msgstr ""
+
+#: classes/settings/trip-edit/trip-edit.php:131
+msgid "Image ID."
+msgstr ""
+
+#: classes/settings/trip-edit/trip-edit.php:135
+msgid "Image alt."
+msgstr ""
+
+#: classes/settings/trip-edit/trip-edit.php:139
+msgid "Image URL."
+msgstr ""
+
+#: classes/settings/trip-edit/trip-edit.php:146
+msgid "Itinerary overnights."
+msgstr ""
+
+#: classes/settings/trip-edit/trip-edit.php:150
+msgid "Overnight location."
+msgstr ""
+
+#: classes/settings/trip-edit/trip-edit.php:154
+msgid "Overnight altitude."
+msgstr ""
+
+#: classes/settings/trip-edit/trip-edit.php:160
+msgid "Itinerary info."
+msgstr ""
+
+#: classes/settings/trip-edit/trip-edit.php:166
+msgid "Itinerary info ID."
+msgstr ""
+
+#: classes/settings/trip-edit/trip-edit.php:170
+msgid "Itinerary info title."
+msgstr ""
+
+#: classes/settings/trip-edit/trip-edit.php:174
+msgid "Itinerary info value."
+msgstr ""
+
+#: templates/trip-itinerary-template.php:24
+msgid "Expand all"
+msgstr ""
+
+#: templates/trip-itinerary-template.php:62
+msgid "Day "
+msgstr ""
+
+#: templates/trip-itinerary-template.php:219
+msgid "Close"
+msgstr ""
+
+#: updater/EDD_SL_Plugin_Updater.php:228
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: updater/EDD_SL_Plugin_Updater.php:236
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: updater/EDD_SL_Plugin_Updater.php:474
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: updater/EDD_SL_Plugin_Updater.php:474
+msgid "Error"
+msgstr ""
+
+#: vendor/codewing-solutions/wptravelengine-pro-config/src/EDDPluginsResponse.php:62
+#: vendor/codewing-solutions/wptravelengine-pro-config/src/functions.php:168
+msgid "Invalid API response"
+msgstr ""
+
+#: vendor/codewing-solutions/wptravelengine-pro-config/src/functions.php:74
+msgid "install"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Travel Engine - Advanced Itinerary Builder"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wptravelengine.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"WP Travel Engine - Advanced Itinerary Builder is a custom addon for WP "
+"Travel Engine plugin that helps you build advanced itinerary."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Travel Engine"
+msgstr ""
