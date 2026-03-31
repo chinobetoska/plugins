@@ -1,0 +1,99 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .weather-forecast-days {
+    text-align: center;
+    border: 1px solid #eee;
+    padding: 20px;
+    background: #f9f9f9;
+}
+.weather-forecast-days figure {
+    margin-bottom: 0;
+}
+ul.forcast-day {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.1112em;
+}
+
+ul.forcast-day li {
+    margin-bottom: 10px;
+}
+
+ul.forcast-day li.forcast-date {
+    font-style: italic;
+    color: #999;
+}
+
+ul.forcast-day li.forcast-condition {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+ul.forcast-day li.forcast-temp {
+    font-size: 4em;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 0;
+}
+
+div#departure-dates-countdown {
+    display: flex;
+    flex: 1;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1112em;
+}
+
+div#departure-dates-countdown .departure-seperator{
+    font-size: 0.5em;
+    margin: 0 10px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+div#departure-dates-countdown .departure-seperator svg{
+    display: block;
+    margin: 0 0 6px;
+}
+
+.departure-time-holder {
+    width: 110px;
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    border-radius: 4px;
+    min-height: 130px;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.departure-time-holder #days, 
+.departure-time-holder #hours, 
+.departure-time-holder #minutes, 
+.departure-time-holder #seconds {
+    font-size: 2.5em;
+    font-weight: 800;
+    margin-bottom: 10px;
+    line-height: 1;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 12px;
+}
+
+#secondary .departure-seperator:nth-child(4), 
+.site-footer .departure-seperator:nth-child(4) {
+    display: none;
+}
+
+
+/*.departure-seperator {
+    margin: 0 10px;
+}*/

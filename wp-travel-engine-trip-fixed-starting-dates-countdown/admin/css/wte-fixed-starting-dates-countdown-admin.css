@@ -1,0 +1,57 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.wte-countdown-settings:after{
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.wte-countdown-settings .countdown-checkbox-label h4{
+    float: left;
+}
+
+.wte-countdown-settings .countdown-checkbox-label .checkbox-label{
+    display: inline-block;
+    width: 42px;
+    height: 22px;
+    border-radius: 40px;
+    float: right;
+    position: relative;
+    top: 0;
+    background: #DCDFE6;
+    border: 1px solid #DCDFE6;
+    margin: 15px 0 0;
+    -webkit-transition: all cubic-bezier(1,0,0,1) 0.35s;
+    -moz-transition: all cubic-bezier(1,0,0,1) 0.35s;
+    transition: all cubic-bezier(1,0,0,1) 0.35s;
+}
+
+.wte-countdown-settings .countdown-checkbox-label .checkbox-label:before{
+    content: "";
+    background: #fff;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    -webkit-transition: all cubic-bezier(1,0,0,1) 0.35s;
+    -moz-transition: all cubic-bezier(1,0,0,1) 0.35s;
+    transition: all cubic-bezier(1,0,0,1) 0.35s;
+}
+
+.wte-countdown-settings .countdown-checkbox-label input[type="checkbox"]{
+    display: none;
+}
+
+.wte-countdown-settings .countdown-checkbox-label input[type="checkbox"]:checked + .checkbox-label{
+    background: #1A84EE;
+    border-color: #1A84EE;
+}
+
+.wte-countdown-settings .countdown-checkbox-label input[type="checkbox"]:checked + .checkbox-label:before{
+    left: calc(100% - 18px);
+}
