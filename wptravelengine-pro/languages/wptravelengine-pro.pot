@@ -1,0 +1,247 @@
+# Copyright (C) 2026 WP Travel Engine
+# This file is distributed under the same license as the WP Travel Engine Pro plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Travel Engine Pro 1.0.15\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wptravelengine-pro\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-03-10T05:03:50+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: wptravelengine-pro\n"
+
+#. Plugin Name of the plugin
+#: wptravelengine-pro.php
+msgid "WP Travel Engine Pro"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: wptravelengine-pro.php
+msgid "https://wptravelengine.com/plugins/wptravelengine-pro/"
+msgstr ""
+
+#. Description of the plugin
+#: wptravelengine-pro.php
+msgid "WP Travel Engine Pro is a premium add-on for WP Travel Engine plugin that adds more powerful features to the plugin."
+msgstr ""
+
+#. Author of the plugin
+#: wptravelengine-pro.php
+msgid "WP Travel Engine"
+msgstr ""
+
+#. Author URI of the plugin
+#: wptravelengine-pro.php
+msgid "https://wptravelengine.com/"
+msgstr ""
+
+#: src/Admin/Controllers/PluginInstall.php:163
+msgid "Store URL constant is not defined."
+msgstr ""
+
+#: src/Admin/Controllers/PluginInstall.php:186
+msgid "Failed to initialize plugin API."
+msgstr ""
+
+#: src/Admin/Controllers/PluginInstall.php:193
+msgid "Failed to fetch plugin information from API."
+msgstr ""
+
+#: src/Admin/Controllers/PluginInstall.php:243
+msgid "An error occurred while fetching plugin information."
+msgstr ""
+
+#: src/Admin/EDDPluginsResponse.php:111
+msgid "The store is temporarily unavailable. Please wait a moment and try again."
+msgstr ""
+
+#: src/Admin/EDDPluginsResponse.php:215
+msgid "Access forbidden. Please contact support for more information."
+msgstr ""
+
+#: src/Admin/EDDPluginsResponse.php:217
+msgid "Too Many Requests."
+msgstr ""
+
+#: src/AJAX.php:31
+msgid "Invalid or missing nonce"
+msgstr ""
+
+#: src/AJAX.php:50
+msgid "Invalid action"
+msgstr ""
+
+#: src/AJAX.php:84
+msgid "Insufficient permissions."
+msgstr ""
+
+#: src/AJAX.php:124
+msgid "Invalid request action."
+msgstr ""
+
+#: src/AJAX.php:132
+msgid "The license server could not be reached. Please check your connection and try again."
+msgstr ""
+
+#: src/AJAX.php:179
+#, php-format
+msgid "Database Error: %s"
+msgstr ""
+
+#: src/AJAX.php:188
+msgid "Results refreshed"
+msgstr ""
+
+#: src/ExtensionLoader.php:75
+#, php-format
+msgid "Your license for <strong>%1$s</strong> has expired and is no longer valid. Please %2$s your license to continue receiving regular updates and support. %3$s"
+msgstr ""
+
+#: src/ExtensionLoader.php:79
+#, php-format
+msgid "Your license for <strong>%1$s</strong> is inactive. Please activate your license to use <strong>%1$s</strong> and continue receiving regular updates and support. %3$s"
+msgstr ""
+
+#: src/ExtensionLoader.php:83
+#, php-format
+msgid "<strong>%1$s is active but not running</strong> because of an invalid license key. Please enter a valid license key to use <strong>%1$s</strong> and continue receiving regular updates and support. %3$s"
+msgstr ""
+
+#: src/ExtensionLoader.php:95
+#, php-format
+msgid "Click <strong>%1$s</strong> to manage your license."
+msgstr ""
+
+#: src/ExtensionLoader.php:148
+#, php-format
+msgid "Your license for <strong>%1$s</strong> is expiring on %3$s. Please %2$s your license to continue using and receiving regular updates and support."
+msgstr ""
+
+#: src/ExtensionLoader.php:161
+#, php-format
+msgid "<strong>%s</strong> requires <strong>WP Travel Engine</strong> version %s or higher."
+msgstr ""
+
+#: src/ExtensionLoader.php:173
+#, php-format
+msgid "<strong>%s</strong> requires <strong>WP Travel Engine Pro</strong> version %s or higher."
+msgstr ""
+
+#: src/hooks/admin-init.php:99
+#, php-format
+msgid "Visit plugin site for %s"
+msgstr ""
+
+#: src/hooks/admin-init.php:100
+msgid "Visit plugin site"
+msgstr ""
+
+#: src/hooks/admin-notices.php:27
+msgid "Learn more"
+msgstr ""
+
+#: src/hooks/pre-bootstrap.php:21
+msgid "<p>WP Travel Engine Pro requires <strong>WP Travel Engine</strong> to be installed and activated. The plugin is <strong>NOT RUNNING</strong></p>"
+msgstr ""
+
+#: src/License.php:269
+msgid "License key is missing"
+msgstr ""
+
+#: src/License.php:271
+msgid "License key is valid and site is active."
+msgstr ""
+
+#: src/License.php:274
+#, php-format
+msgid "Invalid license key. Please verify your key or obtain a valid license key from %s."
+msgstr ""
+
+#: src/License.php:278
+msgid "License is not valid for this product"
+msgstr ""
+
+#: src/License.php:280
+msgid "Invalid Item ID"
+msgstr ""
+
+#: src/License.php:282
+msgid "Your site is not active for this license"
+msgstr ""
+
+#: src/License.php:285
+#, php-format
+msgid "Your license key has expired. Please renew your license key to continue receiving updates and support. %1$sRenew Now%2$s"
+msgstr ""
+
+#: src/License.php:290
+msgid "Your site is deactivated for this license."
+msgstr ""
+
+#: src/License.php:292
+msgid "Request failed"
+msgstr ""
+
+#: src/License.php:383
+msgid "License status already checked."
+msgstr ""
+
+#: src/License.php:410
+msgid "No licenses to check."
+msgstr ""
+
+#: src/License.php:427
+#: src/License.php:438
+#: src/License.php:446
+msgid "Remote request failed."
+msgstr ""
+
+#: src/License.php:456
+msgid "Invalid response from store."
+msgstr ""
+
+#: src/License.php:482
+msgid "License statuses updated."
+msgstr ""
+
+#: src/Updater.php:257
+#, php-format
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: src/Updater.php:265
+#, php-format
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s or %5$supdate now%6$s."
+msgstr ""
+
+#: src/Updater.php:532
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: src/Updater.php:532
+msgid "Error"
+msgstr ""
+
+#: views/components/content-license-field.php:30
+msgid "Activated"
+msgstr ""
+
+#: views/components/content-license-fields.php:4
+msgid "Premium Extensions not Found!"
+msgstr ""
+
+#: views/pages/wptravelengine-pro.php:16
+msgid "WP Travel Engine Addons"
+msgstr ""
+
+#: views/pages/wptravelengine-pro.php:22
+msgid "License Keys"
+msgstr ""
+
+#: views/pages/wptravelengine-pro.php:24
+msgid "All of the premium addon installed and activated on your website has been listed below. You can add/edit and manage your License keys for each addon individually."
+msgstr ""
